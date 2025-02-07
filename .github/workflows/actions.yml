@@ -1,6 +1,11 @@
+on:
+ push:
+  branches:
+    - master
+
 jobs:
   test:
+    runs-on: ubuntu-latest
     steps:
       - name: raghavendra.bobbili@gramener.com
         run: echo "Hello, world!"
-      
